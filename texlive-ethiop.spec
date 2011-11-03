@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /language/ethiopia/ethiop
+# catalog-date 2007-02-14 08:57:40 +0100
+# catalog-license gpl
+# catalog-version 0.7
 Name:		texlive-ethiop
 Version:	0.7
 Release:	1
@@ -220,6 +226,7 @@ based on EthTeX's.
 #- source
 %doc %{_texmfdistdir}/source/latex/ethiop/ethiop.dtx
 %doc %{_texmfdistdir}/source/latex/ethiop/ethiop.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -230,3 +237,5 @@ based on EthTeX's.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts omega tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
