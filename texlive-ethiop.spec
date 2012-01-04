@@ -6,7 +6,7 @@
 # catalog-version 0.7
 Name:		texlive-ethiop
 Version:	0.7
-Release:	1
+Release:	2
 Summary:	LaTeX macros and fonts for typesetting Amharic
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/ethiopia/ethiop
