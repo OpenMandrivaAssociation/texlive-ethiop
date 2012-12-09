@@ -226,3 +226,17 @@ based on EthTeX's.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts omega tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.7-2
++ Revision: 751640
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.7-1
++ Revision: 718378
+- texlive-ethiop
+- texlive-ethiop
+- texlive-ethiop
+- texlive-ethiop
+
